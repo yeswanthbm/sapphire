@@ -9,6 +9,7 @@
 	
 	#topnav ul{display:none;}
 	.redbg-img #container{display:none;}
+	.row3.logoSlider {clear: both;padding: 10px; display:none;}
 	form input[type="submit"]{margin-bottom:10px;}
 	
 	.one_half, .one_half.nogutter, 
