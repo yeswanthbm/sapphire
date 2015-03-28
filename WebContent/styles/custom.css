@@ -1,0 +1,370 @@
+.textCenter {
+	text-align: center;
+}
+.textLeft {
+	text-align: left;
+}
+.grid-gal
+{
+	width:100% !important;
+	
+}
+.grid-gal h2
+{
+	margin-bottom:0px;
+}
+.grid-gal ul
+{
+	margin-top:30px !important;
+}
+.grid-gal ul li
+{
+	padding:15px 0px;
+}
+strong {
+	margin: 40px 0px;
+}
+
+#logo {
+	float: left;
+}
+
+.row3 #container {
+	width: 100%;
+}
+
+.row0 {
+	background: #68171e;
+}
+
+.color-wt {
+	color: #fff;
+}
+
+.cont2 img {
+	width: 100%;
+}
+
+.redbg-img img {
+	width: 100%;
+}
+.curosal-slider div {
+	
+}
+.curosal-slider div img {
+	width: auto !important;
+	height: auto !important;margin-top:30px;
+}
+
+.cont2 {
+	clear: both;
+}
+.three_quarter
+{
+	margin-bottom:35px !important;
+}
+
+h3.head2 {
+	color: #68171e;
+	font-size: 34px;
+}
+
+h2.head {
+	color: #68171e;
+}
+
+.readMore {
+	color: #fff;
+	background: #68171E;
+	padding: 3px 10px;
+	border-radius: 2px;
+	cursor:pointer;
+}
+
+.icon-black {
+	width: 20.25%;
+	cursor: pointer;
+	padding: 32px 0px;
+	padding-left: 10px;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.icon-cogs:before {
+	content: "\f085";
+}
+
+.icon-black:hover {
+	color: #68171e;
+	background: #fff;
+}
+
+.one_quarter {
+	
+}
+
+.row6 #container {
+	padding: 0px !important;
+}
+
+.menuIcon {
+	display: none;
+}
+
+.menu-img {
+	background: url(../images/menu-icon.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.menuIcon ul {
+	list-style-type: none;
+	padding: 0px 10px;
+	margin: 0px;
+	z-index: 99999;
+	width: 170px;
+}
+
+.menuIcon ul li {
+	padding: 5px 10px;
+	color: #fff;
+}
+
+.menuIcon ul li a {
+	color: #fff;
+}
+
+/*-------------------------------------------*/
+<
+style>
+	/*-- CSS3 Drop Down Menu By Blogger Tricks http://.bl0gger-tricks.blogspot.com-----*/
+	#bt-menu,#bt-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#bt-menu {
+	width: 960px;
+	margin: 60px auto;
+	background: #DADFE1;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 1px 1px #777;
+	-webkit-box-shadow: 0 1px 1px #777;
+	box-shadow: 0 1px 1px #777;
+}
+
+#bt-menu:before,#bt-menu:after {
+	content: "";
+	display: table;
+}
+
+#bt-menu:after {
+	clear: both;
+}
+
+#bt-menu {
+	zoom: 1;
+}
+
+#bt-menu li {
+	float: left;
+	-moz-box-shadow: 1px 0 0 #444;
+	-webkit-box-shadow: 1px 0 0 #444;
+	box-shadow: 1px 0 0 #444;
+	position: relative;
+}
+
+#bt-menu a {
+	float: left;
+	padding: 12px 30px;
+	color: #000000;
+	text-transform: uppercase;
+	font: bold 12px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 0px 0 #000;
+}
+
+#bt-menu li:hover>a {
+	background: #333333;
+	color: #fafafa;
+}
+
+* html #bt-menu li a:hover { /* IE6 only */
+	color: #333333;
+}
+
+#bt-menu ul {
+	margin: 20px 0 0 0;
+	_margin: 0; /*IE6 only*/
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index: 9999;
+	background: #DADFE1 url('images/pageglare.png') no-repeat scroll;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#bt-menu li:hover>ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+}
+
+#bt-menu ul ul {
+	top: 0;
+	left: 150px;
+	margin: 0 0 0 20px;
+	_margin: 0; /*IE6 only*/
+	-moz-box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+	-webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+	box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+}
+
+#bt-menu ul li {
+	float: none;
+	display: block;
+	border: 0;
+	_line-height: 0; /*IE6 only*/
+	-moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+	-webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+	box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+#bt-menu ul li:last-child {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#bt-menu ul a {
+	padding: 10px;
+	width: 130px;
+	_height: 10px; /*IE6 only*/
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+}
+
+#bt-menu ul a:hover {
+	background-color: #333333;
+}
+
+#bt-menu ul li:first-child>a {
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+
+#bt-menu ul li:first-child>a:after {
+	content: '';
+	position: absolute;
+	left: 40px;
+	top: -6px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #333333;
+}
+
+#bt-menu ul ul li:first-child a:after {
+	left: -6px;
+	top: 50%;
+	margin-top: -6px;
+	border-left: 0;
+	border-bottom: 6px solid transparent;
+	border-top: 6px solid transparent;
+	border-right: 6px solid #333333;
+}
+
+#bt-menu ul li:first-child a:hover:after {
+	border-bottom-color: #DADFE1;
+}
+
+#bt-menu ul ul li:first-child a:hover:after {
+	border-right-color: #DADFE1;
+	border-bottom-color: transparent;
+}
+
+#bt-menu ul li:last-child>a {
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+.jssorb21 div,.jssorb21 div:hover,.jssorb21 .av {
+	background: url(../images/b05.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.jssorb21 div {
+	background-position: -5px -5px;
+}
+
+.jssorb21 div:hover,.jssorb21 .av:hover {
+	background-position: -35px -5px;
+}
+
+.jssorb21 .av {
+	background-position: -65px -5px;
+}
+
+.jssorb21 .dn,.jssorb21 .dn:hover {
+	background-position: -95px -5px;
+}
+
+.slider-img div img {
+	left: 0px !important;
+}
+
+.jssora21l,.jssora21r,.jssora21ldn,.jssora21rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../images/a11.png) center center no-repeat;
+	overflow: hidden;
+}
+
+.jssora21l {
+	background-position: -3px -33px;
+}
+
+.jssora21r {
+	background-position: -63px -33px;
+}
+
+.jssora21l:hover {
+	background-position: -123px -33px;
+}
+
+.jssora21r:hover {
+	background-position: -183px -33px;
+}
+
+.jssora21ldn {
+	background-position: -243px -33px;
+}
+
+.jssora21rdn {
+	background-position: -303px -33px;
+}
+
+#wsite-content a:hover{
+	color: #000;
+}
+
+.width60{
+	width:60%;
+}

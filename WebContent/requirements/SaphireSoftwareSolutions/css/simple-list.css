@@ -1,0 +1,110 @@
+#viewport{
+	width: 560px; /* Defines the size of the visible part of the carousel
+		Attention : if you only want to see plain items in the viewport,
+		the width of the viewport should take into account of :
+		- the items width
+		- the right and left padding of items
+		- the number of items you want to see in the viewport
+	 */
+	overflow:hidden; /* Hides extra elements, those outside the viewport area */
+}
+#viewport ul{
+	position: relative; /* Enables positionning of elements inside viewport */
+	padding: 0; /* Resets default - User Agent - style */
+}
+
+
+/* Cosmetic */
+#simplePrevious, #simpleNext{
+	cursor: pointer;
+	font-size: 0.8em;
+	text-decoration: underline;	
+}
+
+
+
+
+#products{
+	width:674px;
+	height:182px;
+	float:left;
+	margin:0px;
+	padding:0px 0 16px 0px;
+	background: url(../images/pdrbg.jpg) no-repeat left top;
+}
+
+#products ul{
+	width:500px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+#products ul li{
+    display:block;
+	list-style:none;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background-repeat:no-repeat;
+}
+
+
+.tabs-in1{
+	width:177px;
+	height:213px;
+	margin:0px 0px 15px 9px;
+	padding:0px;
+	float:left;
+	background:url(../images/tabs1.jpg) no-repeat;
+	}
+.tabs-in2{
+	width:176px;
+	height:213px;
+	margin:0px 0px 15px 7px;
+	padding:0px;
+	float:left;
+	background:url(../images/tab10.png) no-repeat;
+	}
+.tabs-in3{
+	width:210px;
+	height:213px;
+	margin:0px 0px 15px 7px;
+	padding:0px;
+	float:left;
+	background:url(../images/tabs3.jpg) no-repeat;
+	}
+.tabs-in4{
+	width:196px;
+	height:213px;
+	margin:0px 0px 15px 7px;
+	padding:0px;
+	float:left;
+	background:url(../images/tab11.png) no-repeat;
+	}
+.tabs-in5{
+	width:176px;
+	height:213px;
+	margin:0px 0px 15px 8px;
+	padding:0px;
+	float:left;
+	background:url(../images/tabs2.jpg) no-repeat;
+	}
+	
+	.tabs-in6{
+	width:210px;
+	height:213px;
+	margin:0px 0px 15px 8px;
+	padding:0px;
+	float:left;
+	background: url(../images/tabs6.jpg) no-repeat left top;
+	}
+	.tabs-in7{
+	width:177px;
+	height:213px;
+	margin:0px 0px 15px 8px;
+	padding:0px;
+	float:left;
+	background: url(../images/tabs7.jpg) no-repeat left top;
+	}

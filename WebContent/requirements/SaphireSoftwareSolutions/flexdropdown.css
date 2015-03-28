@@ -1,0 +1,54 @@
+
+	
+.flexdropdownmenu, .flexdropdownmenu ul{ /*topmost and sub ULs, respectively*/
+font-family:Tahoma;
+font-size:12px;
+font-weight:normal;
+margin-top:2px;
+padding: 0px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border-bottom: 0px solid #c2baaa;
+visibility: hidden;
+display: none; /*collapse all sub menus to begin with*/
+box-shadow: 3px 3px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 3px 3px 8px #818181;
+-moz-box-shadow: 3px 3px 8px #818181;
+color:#93886e;
+}
+
+
+.flexdropdownmenu li{
+position: relative;
+}
+
+.flexdropdownmenu li a{
+display: block;
+width: 150px; /*width of menu (not including side paddings)*/
+color:#000000;
+height:12px;
+background:#EBEBEB;
+border-bottom: 1px solid #c2baaa;
+text-decoration: none;
+padding: 10px 10px;
+}
+
+* html .flexdropdownmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.flexdropdownmenu li a:hover, .flexdropdownmenu li.selected>a{
+background: #6A181C;
+color:#FFFFFF;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 0px;
+}
+

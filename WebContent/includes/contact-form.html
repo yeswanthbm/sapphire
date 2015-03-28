@@ -1,0 +1,59 @@
+<style>
+form div,form p {
+	line-height: 40px;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+form input,form textarea {
+	border: 1px solid #e5e4e3;
+	border-radius: 3px;
+	box-sizing: border-box;
+	display: block;
+	box-shadow: 1px 2px #ccc;
+	padding: 10px;
+	width: 100%;
+}
+</style>
+
+
+<div class="box width60"
+	style="float: left; clear: both; margin: 30px auto; line-height: 0px;">
+	<h2>Contact us</h2>
+	<form id="contactForm" method="post" action="contact-us.php" onsubmit="return validateForm();">
+		<div class="row uniform 50%">
+			<div class="6u 12u(3) textLeft">
+				<strong>Name:</strong><br>
+				<input type="text" name="name" id="name" value="" required maxlength="100">
+			</div>
+			<div class="6u 12u(3) textLeft">
+				<strong>Email:</strong><br>
+				<input type="text" name="email" id="email" value="" required maxlength="100">
+			</div>
+			<div class="6u 12u(3) textLeft">
+				<strong>Phone:</strong><br>
+				<input type="text" name="phone" id="phone" value="" required pattern="[0-9]{10,15}">
+			</div>
+		</div>
+		<div class="row uniform 50% textLeft">
+			<div class="12u">
+				<strong>Subject:</strong><br>
+				<input type="text" name="subject" id="subject" value="" required maxlength="100">
+			</div>
+		</div>
+		<div class="row uniform 50% textLeft">
+			<div class="12u">
+				<strong>Message:</strong><br>
+				<textarea name="message" id="message" rows="6" required maxlength="255"></textarea>
+			</div>
+		</div>
+		<div class="row uniform">
+			<div class="12u">
+				<button type="reset" value="Reset" name="reset" id="reset"
+					style="border: none; border-radius: 3px; border: 1px solid #ccc; padding: 10px 20px;">Reset</button>
+				<button type="submit" value="Send Message" name="submit" id="submit"
+					style="border: none; border-radius: 3px; border: 1px solid #ccc; padding: 10px 20px;">Submit</button>
+			</div>
+		</div>
+	</form>
+</div>

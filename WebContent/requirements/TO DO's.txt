@@ -1,0 +1,22 @@
+TODO: Razik
+
+1) Header strip - change icon color to white.
+2) Header Logo - Work on width of the logo
+3) Remove left arror and right arrow on slider + remove text on the images  - I removed text but lets not remove the arrows
+4) Body image - add dummy text. If possible try to add small images to the content below the body image.
+5) change Body font color.
+6) Footer design as in  - http://www.collabera.com/contact-us/
+6) single Image in all inner pages.
+7) Corosal in home page- client logos.
+8) Add client logos in carrers page 
+9) work on contact page design
+
+
+TODO: Yeswanth
+1) Activate menu on click - finished
+2) prepare Body Content. - 
+3) R&D on menu drop down.
+4) Java script for menu as in vedic soft.
+5) Footer content - finished
+6) Left menu scripting and list differentiation  
+7) prepare cotent, map, submit form.

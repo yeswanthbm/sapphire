@@ -1,0 +1,22 @@
+@charset 'utf-8';
+/*************************************************
+*
+*	project:  	liteAccordion - horizontal accordion plugin for jQuery
+*	author:   	Nicola Hibbert
+*	url:	  	http://nicolahibbert.com/horizontal-accordion-jquery-plugin
+*	demo:	  	http://www.nicolahibbert.com/demo/liteAccordion
+*
+/*************************************************/
+/****************************************** Core */
+.accordion { text-align: left; font: 'Helvetica Neue', Verdana, Arial, sans-serif; padding:0px; margin:0px;  }
+.accordion ol { position: relative; overflow: hidden; height: 100%; margin: 0; padding: 0; list-style-type: none; }
+.accordion li { padding:0px; margin:0px; border: solid 1px #FFFFFF;}
+.accordion li h2 { color: black; font-weight: normal; margin: 0; z-index: 2; position: absolute; top: 0; left: 0; padding:0px; margin:0px; }
+.accordion li  h2:hover { cursor: pointer; }
+.accordion li  div { height: 100%; position: absolute; top: 1px; left:10px; z-index: 1; overflow: hidden; padding:0px; margin:0px;}
+.accordion noscript p { padding: 0px; margin: 0;  padding:0px; margin:0px; }
+
+/****************************************** Basic */
+.basic li  h2 {  color: white; line-height: 1.8em; padding:0px; margin:0px;  }
+.basic li  div h3 { padding:0px; margin:0px; }
+.basic li  div p { font-size: 14px; padding:0px; margin:0px; }
