@@ -46,7 +46,7 @@ function initialize() {
 			var marker = new google.maps.Marker({
 				map : map,
 				position : results[0].geometry.location,
-				title : 'Sapphire Software Solutions\n 11501 Dublin Blvd, Suite 200\n Dublin, CA 94568\n United States'
+				title : 'Sapphire Software Solutions Inc.\n 11501 Dublin Blvd, Suite 200\n Dublin, CA 94568\n United States'
 			});
 			infowindow.setContent("Sapphire Software Solutions Inc.");
 			infowindow.open(map, marker);
