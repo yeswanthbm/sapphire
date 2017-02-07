@@ -37,7 +37,7 @@ function initialize() {
 	var map;
 	var infowindow = new google.maps.InfoWindow();
 	var geocoder = new google.maps.Geocoder();
-	var address = "3116 Vittoria Loop, Dublin, CA 94568, United States";
+	var address = "11501 Dublin Blvd, Suite 200, Dublin, CA 94568, United States";
 	geocoder.geocode({
 		'address' : address
 	}, function(results, status) {
@@ -46,7 +46,7 @@ function initialize() {
 			var marker = new google.maps.Marker({
 				map : map,
 				position : results[0].geometry.location,
-				title : 'Sapphire Software Solutions\n 3116 Vittoria Loop\n Dublin CA 94568\n United States'
+				title : 'Sapphire Software Solutions\n 11501 Dublin Blvd, Suite 200\n Dublin, CA 94568\n United States'
 			});
 			infowindow.setContent("Sapphire Software Solutions Inc.");
 			infowindow.open(map, marker);
@@ -55,7 +55,7 @@ function initialize() {
 					+ status);
 		}
 	});
-	var latlng = new google.maps.LatLng(37.713199, -121.860565);
+	var latlng = new google.maps.LatLng(37.6991318, -121.9450889);
 	var mapOptions = {
 		zoom : 14,
 		center : latlng
