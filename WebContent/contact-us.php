@@ -129,13 +129,16 @@
 						organization in being more competitive and agile. You can contact
 						us to get more information about our professional services and the
 						product offerings</p>
-					<h3>USA Locations</h3>
+					<h3>USA Locations</h3><br>
 					Sapphire Software Solutions Inc.<br>
 					11501 Dublin Blvd, Suite 200<br>
 					Dublin, CA 94568<br>
 					Phone: 408-641-0980<br>
 					Fax: 408-490-2794<br>
 					Email: <a href="mailto:info@sapphiresoftwaresolutions.com" class="color-wt">info@sapphiresoftwaresolutions.com</a><br><br>
+					Sapphire Software Solutions Inc.<br>
+					3116 Vittoria Loop<br>
+					Dublin, CA 94568<br><br>
 					<h3>India Office</h3>
 					Neethus Overseas<br> 
 					331 Second Floor<br> 
