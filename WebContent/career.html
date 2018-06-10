@@ -1,388 +1,604 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html dir="ltr" lang="en">
 <head>
-    <title>Sapphire Software Solutions</title>
-    <meta charset="iso-8859-1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="icon" href="images/logo-s.png" type="images/png" sizes="16x16">
-    <link href="styles/main.css" rel="stylesheet" type="text/css" media="all">
-    <link href="styles/mediaqueries.css" rel="stylesheet" type="text/css" media="all">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <script src="scripts/jquery-1.9.1.min.js"></script>
-    <script src="scripts/common.js"></script>
-    <!--[if lt IE 9]>
+<title>Sapphire Software Solutions</title>
+<meta charset="iso-8859-1" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<link href="images/logo-s.png" rel="icon" sizes="16x16"
+	type="images/png" />
+<link href="styles/main.css" media="all" rel="stylesheet"
+	type="text/css" />
+<link href="styles/mediaqueries.css" media="all" rel="stylesheet"
+	type="text/css" />
+<link
+	href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
+	rel="stylesheet" type="text/css" />
+<script src="scripts/jquery-1.9.1.min.js"></script>
+<script src="scripts/common.js"></script>
+<!--[if lt IE 9]>
     <link href="layout/styles/ie/ie8.css" rel="stylesheet" type="text/css" media="all">
     <script src="layout/scripts/ie/css3-mediaqueries.min.js"></script>
     <script src="layout/scripts/ie/html5shiv.min.js"></script>
     <![endif]-->
 </head>
-<body class="" onload="activateMenu();">
-    <!-- Header -->
-    <div id="headerSec">
-    	<div class="wrapper row0">
-			<div id="topbar" class="clear"> 
-			    <div class="fl_left">
-			        <ul class="nospace">
-			            <li><span class="icon-phone"></span> 408-641-0980</li>
-			            <li><span class="icon-envelope-alt"></span><a href="mailto:info@sapphiresoftwaresolutions.com" class="color-wt">info@sapphiresoftwaresolutions.com</a></li>
-			        </ul>
-			    </div>
-			    <div class="fl_right mob-left">
-			        <ul class="faico clear">
-			            <li><a class="faicon-facebook" title="Sapphire's Facebook" href="https://www.facebook.com/groups/438186149597607/?ref=br_tf" target="_blank"><i class="icon-facebook"></i></a></li>
-			            <li><a class="faicon-twitter" title="Sapphire's Twitter" href="https://twitter.com/Sapphire_CA_Inc" target="_blank"><i class="icon-twitter"></i></a></li>
-			            <li><a class="faicon-linkedin" title="Sapphire's Linkedin" href="https://www.linkedin.com/company/2784752?trk=tyah&trkInfo=tarId%3A1418479225582%2Ctas%3Asapphire%20softwa%2Cidx%3A1-2-2" target="_blank"><i class="icon-linkedin"></i></a></li>
-			        </ul>
-			    </div>
-		    </div>
-		</div>
-		<div class="wrapper row2">
-		    <div class="menuIcon">
-		        <div class="menu-img"></div>
-		        <ul class="clear menu-tog">
-		            <li class="active arrow_box"><a href="home.html" title="Home">Home</a></li>
-		            <li><a class="drop" href="services.html" title="Services & Solutions">Services & Solutions</a></li>
-		            <li><a class="drop" href="careers.html" title="Careers">Careers</a></li>
-		            <li><a class="drop" href="about-us.html" title="About Us">About Us</a></li>
-		            <li><a class="drop" href="contact-us.html" title="Contact Us">Contact Us</a></li>
-		        </ul>
-		    </div>
-		    <header id="header" class="clear"> 
-		        <div id="logo">
-		            <h1><a href="home.html"><img src="images/Sapphire-logo.jpg"></a></h1>
-		        </div>
-		        <div class="fl_right">
-		        <nav id="topnav">
-		            <ul class="clear">
-		                <li id="homeId" ><a href="home.html" title="Home">Home</a></li>
-		                <li id="servicesId">
-		                    <a class="drop" href="services.html" title="Services & Solutions">Services & Solutions</a>
-		                    <ul> 
-		                        <li><a href="tech-consulting.html">Technology Consulting</a></li> 
-		                        <li><a href="business-solutions.html">Business Solutions</a></li> 
-		                        <li><a href="infra-management.html">Infrastructure Management</a></li> 
-		                    
-		                    </ul> 
-		                </li>
-		                <li id="careersId">
-		                    <a class="drop" href="careers.html" title="Careers">Careers</a>
-		                    <ul> 
-		                        <li><a href="technology.html">Technology</a></li> 
-		                        <li><a href="clients.html">Our Clients</a></li> 
-		                        <li><a href="career.html">Opportunities</a></li> 
-		                    </ul> 
-		                </li>
-		                <li id="aboutusId"><a class="drop" href="about-us.html" title="About Us">About Us</a>
-		                    <ul> 
-		                        <li><a href="vision.html">Vision & Mission</a></li> 
-		                        <li><a href="principles.html">Guiding Principles</a></li> 
-		                        <li><a href="quality.html">Quality</a></li> 
-		                    </ul> 
-		                </li>
-		                <li id="contactusId"><a class="drop" href="contact-us.html" title="Contact Us">Contact Us</a></li>
-		            </ul>
-		        </nav>
-		        </div>
-		    </header>
-		</div>
-    </div>
-
-    <!-- welcome -->
-    <div class="row3">
-    	<div id="container" class="padding0">
-    	<div style="margin-bottom:20px;"><img src="images/inner-careers.jpg" style="max-width:100%"></div>
-		<div id="sidebar_1" class="sidebar one_quarter first">
-			<aside>
-				<nav>
-					<ul>
-						<li><a href="careers.html">Careers</a></li>
-						<li><a href="technology.html">Technology</a></li>
-						<li><a href="clients.html">Our Clients</a></li>
-						<li><a class="active" href="career.html">Opportunities</a></li>
+<body onload="activateMenu();">
+	<!-- Header -->
+	<div id="headerSec">
+		<div class="wrapper row0">
+			<div class="clear" id="topbar">
+				<div class="fl_left">
+					<ul class="nospace">
+						<li>408-641-0980</li>
+						<li><a class="color-wt"
+							href="mailto:info@sapphiresoftwaresolutions.com">info@sapphiresoftwaresolutions.com</a></li>
 					</ul>
-				</nav>
-			</aside>
+				</div>
+
+				<div class="fl_right mob-left">
+					<ul class="faico clear">
+						<li>&nbsp;</li>
+						<li>&nbsp;</li>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
+		<div class="wrapper row2">
+			<div class="menuIcon">
+				<div class="menu-img">&nbsp;</div>
 
-		<div class="three_quarter">
-			<h2>Opportunities</h2><br>
-			<h3>Information Technology Jobs</h3><p></p>
-			<h4>
-				<span style="text-decoration: underline;">Software Engineer</span>
-			</h4>
-			<p>Sapphire Software Solutions, Inc. has openings for Software
-				Engineers in Dublin, CA and other unanticipated locations
-				nationwide.<br> 
-				Duties: Design, develop, create, modify, customize,
-				test, and validate software applications using Red Hat Linux
-				Enterprise, Solaris, Veritas Cluster Server, Windows server, Shell
-				programming, Jboss, JDK, SMSC Toolkit, POS Bridge, MKS Integrity,
-				VMWare Virtual Client, Nagios, Apache, Weblogic, and Oracle.<br>
-				Requirement: Master's degree or equivalent in Science or Engineering with at
-				least one (1) year of experience in the field. Any suitable
-				combination of education, training or experience is acceptable.<br>
-				Mail resume with proof of work eligibility to: HR- Sapphire
-				Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-			<h4>
-				<span style="text-decoration: underline;">Software Engineer</span>
-			</h4>
-			<p>Sapphire Software Solutions, Inc. has openings for Software
-			Engineers in San Jose, CA and other unanticipated locations
-			nationwide.<br> 
-			Duties: Design, develop, create, modify, customize,
-			test, and validate software applications using Weblogic
-			Server/Portal, Oracle, MQ Series, SunOne web server, Solaris, RHEL,
-			JDK, BEA JROCKIT, J2EE and Wily Introscope. <br>
-			Requirement: Master's degree or equivalent in Science, Engineering or related with at least one (1)
-			year of experience in the field. Any suitable combination of
-			education, training or experience is acceptable. Travel/relocation
-			may be required.<br> 
-			Mail resume with proof of work eligibility to: HR-
-			Sapphire Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-			
-			<h4>
-				<span style="text-decoration: underline;">Software Engineer</span>
-			</h4>
-			<p>
-				Sapphire Software Solutions, Inc. has openings for Software
-				Engineers in San Jose, CA and other unanticipated locations
-				nationwide. <br>
-				Duties: Design, develop, create, modify, customize,
-				test, and validate software applications using RHEL, Solaris, SMTP,
-				VPN, Perl, Python, PHP, Apache, Websphere, Oracle, Netezza, LDAP,
-				DHCP, DNS, NFS, NIS, and Samba. <br>
-				Requirement: Master's degree or equivalent in
-				Computer Science/Engineering or related field with at least six (6)
-				months of experience in the field. Any suitable combination of
-				education, training or experience is acceptable. Travel/relocation
-				may be required.<br> 
-				Mail resume with proof of work eligibility to: HR-
-				Sapphire Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA
-				94568.
-			</p>
-			
-			<h4>
-				<span style="text-decoration: underline;">Software Engineer</span>
-			</h4>
-			<p>
-				Sapphire Software Solutions, Inc. has openings for Software
-				Engineers in Dublin, CA and other unanticipated locations
-				nationwide.<br> 
-				Duties: Design, develop, create, modify, customize,
-				test, and validate software applications using skills including Red
-				Hat Enterprise Linux, Yum, RPM repository server, Veritas Volume
-				Manager, Veritas Cluster Server, KickStart, and Unix Shell scripts.<br>
-				Requirement: Master's degree or equivalent in Computer Science/Engineering,
-				Electrical Engineering, Information Systems Technologies or related
-				field with at least six (6) months of experience in the field. Any
-				suitable combination of education, training or experience is
-				acceptable. Travel/relocation may be required.<br>
-				Mail resume with proof of work eligibility to: HR- Sapphire Software Solutions,
-				Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
+				<ul class="clear menu-tog">
+					<li class="active arrow_box"><a href="home.html" title="Home">Home</a></li>
+					<li><a class="drop" href="services.html"
+						title="Services &amp; Solutions">Services &amp; Solutions</a></li>
+					<li><a class="drop" href="careers.html" title="Careers">Careers</a></li>
+					<li><a class="drop" href="about-us.html" title="About Us">About
+							Us</a></li>
+					<li><a class="drop" href="contact-us.html" title="Contact Us">Contact
+							Us</a></li>
+				</ul>
+			</div>
 
-			<h4>
-				<span style="text-decoration: underline;">System Analyst</span>
-			</h4>
-			<p>
-				Sapphire Software Solutions, Inc. has openings for System Analyst
-				in Dublin, CA and other unanticipated locations nationwide.<br>
-				Duties: Analyze and evaluate clients existing software system and
-				integrate object server systems; Gather user's business
-				requirements, then design, implement and upgrade customized
-				business system and standard operating procedures based on the
-				analysis of the user's requirements and business specifications;
-				Work with users to formulate the best software plans and analyzing
-				functional module using NT Server and Linux; Create, cloning Linux
-				Virtual Machines, and migrate servers between hosts; Administer
-				package installation, and configure Oracle Enterprise Linux; Review
-				server build strategies, and co-ordinate facilitate execution of
-				the implementation plan; Conduct File System management and
-				expansions of Linux Logical Volume Management; Plan, analyze and
-				estimate test resource requirements to identify risks and track
-				project status; Provide support for system requirement
-				deliverables, user interface specifications, application statistics
-				reporting and security packages. May need to work in other
-				locations as required.<br> Requirement: Master's degree in
-				Computer Science/Application, Information Technology, Electronics,
-				or related area and at least one year experience.<br> Mail
-				resume with proof of work eligibility to: Manoj Bikumandla/HR
-				Manager - Sapphire Software Solutions, Inc., 3116 Vittoria Loop,
-				Dublin, CA 94568.
-			</p>
-			
-			<h4>
-				<span style="text-decoration: underline;">System Analyst</span>
-			</h4>
-			<p>
-				Job duties: Analyze and evaluate clients existing software system
-				and integrate object server systems; Gather user's business
-				requirements, then design, implement and upgrade customized
-				business system and standard operating procedures based on the
-				analysis of the user's requirements and business specifications;
-				Work with users to formulate the best software plans and analyzing
-				functional module using NT Server and Linux; Create, cloning Linux
-				Virtual Machines, and migrate servers between hosts; Administer
-				package installation, and configure Oracle Enterprise Linux; Review
-				server build strategies, and co-ordinate facilitate execution of
-				the implementation plan; Conduct File System management and
-				expansions of Linux Logical Volume Management; Plan, analyze and
-				estimate test resource requirements to identify risks and track
-				project status; Provide support for system requirement
-				deliverables, user interface specifications, application statistics
-				reporting and security packages. May need to work in other
-				locations as required. <br>Requirement: Bachelor's degree in
-				Computer Science/Application, Information Technology, Electronics,
-				or related area and at least 5 years of experience. <br>Contact
-				Person: Manoj Bikumandla/HR Manager - Sapphire Software Solutions,
-				Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
+			<header class="clear" id="header">
+				<div id="logo">
+					<h1>
+						<a href="home.html"><img src="images/Sapphire-logo.jpg" /></a>
+					</h1>
+				</div>
 
-			<h4>
-				<span style="text-decoration: underline;">Systems Engineer</span>
-			</h4>
-			<p>
-				Job duties: Perform and oversee the design, development,
-				automation, testing & implementation of Enterprise level SAN
-				storage, networks & application development using skills; Perform
-				all storage management tasks remotely from the data center using
-				tools such as HP InForm Manager, EMC OneFS and EMC Unisphere;
-				Manage the backup and recovery of data on storage subsystems;
-				Research to improve storage hardware and software, including
-				storage subsystems; Perform performance tuning, optimization and
-				testing of software and computer systems analysis report as well as
-				provide user training for developed systems. May need to work in
-				unanticipated locations as required.<br> Requirement: Master's
-				Degree in Computer Science, Communication/Electrical Engineering,
-				Electronics, or its U.S. equivalent and at least 1 year of
-				experience.<br> Contact Person: HR- Sapphire Software
-				Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-
-			<h4>
-				<span style="text-decoration: underline;">Database
-					Administrator</span>
-			</h4>
-			<p>
-				Job duties: Analyze and implement clients existing software and
-				database management systems and information technology needs;
-				Collect and analyze user's business requirements, then design,
-				implement and test customized business system and standard
-				operating procedures based on the analysis of the user's
-				requirements and business specifications; Perform installation,
-				configuration, maintenance, and administration of various version
-				of database instances and application; Perform performance tuning,
-				optimization and testing of software and database management
-				systems, and involve in database testing by running object oriented
-				programming; Conduct scope analysis, business study, requirements
-				study and testing, then incorporate Oracle database based on study
-				conducted; Optimize by writing efficient code, implement disaster
-				recovery solutions, and upgrade database applications; Monitor
-				database performance, troubleshoot, migrate and administer
-				client/server applications and database system. May need to work in
-				other locations as required.<br> Requirement: Master's degree
-				in Science, Information System, Engineering, or related, and at
-				least 1 year of experience required. <br> Contact Person:
-				Manoj Bikumandla/HR Manager - Sapphire Software Solutions, Inc.,
-				3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-
-			<h4>
-				<span style="text-decoration: underline;">Sr. Software Engineer</span>
-			</h4>
-			<p>
-				Sapphire Software Solutions, Inc. has openings for Sr. Software
-				Engineers in Dublin, CA and other unanticipated locations
-				nationwide.<br> Duties: Analyze and evaluate clients
-				existing software, integrate object server systems and information
-				technology needs; Collect and analyze user's business requirements,
-				then design, implement and upgrade customized business system and
-				standard operating procedures based on the analysis of the user's
-				requirements and business specifications; Write and execute test
-				plans and test cases in highly structured and loosely structured
-				development environments and performing all types of testing;
-				Prepare detail design documents, unit test cases and ensure the
-				quality deliverables adhere to standards; Develop various business
-				process applications in domain driven design approach. May need to
-				work in other locations as required.<br> Requirement:
-				Bachelor's Degree in Computer Science/Application, Electronics,
-				Information Systems, or related, and at least 5 years of experience
-				required. <br> Mail resume with proof of work eligibility to:
-				Manoj Bikumandla/HR Manager - Sapphire Software
-				Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-			
-			<h4>
-				<span style="text-decoration: underline;">Sr. Systems Engineer</span>
-			</h4>
-			<p>
-				Sapphire Software Solutions, Inc. has openings for Sr. Systems Engineer.<br>
-				Duties: Perform and oversee the design, development, automation, testing &
-				implementation of Enterprise level SAN storage, networks &
-				application development using skills including EMC VMAX, IBM SVC ,
-				Cisco MDS,Brocade DCX, Linux, UNIX, and shell scripts; perform all
-				storage management tasks remotely from the data center using tools
-				such as HP InForm Manager, EMC OneFS and EMC Unisphere; manage the
-				backup and recovery of data on storage subsystems; research to
-				improve storage hardware and software, including storage
-				subsystems; perform performance tuning, optimization and testing of
-				software and computer systems analysis report as well as provide
-				user training for developed systems. May need to work in
-				unanticipated locations as required.<br>
-				Requirement: Bachelor's Degree in Computer Science, Communication/Electrical Engineering,
-				Electronics, or its U.S. equivalent and at least 5 years of system
-				and software engineering experience.<br>
-				Mail resume to: HR- Sapphire Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
-			</p>
-			
-			<p>
-				Sapphire is a leading global IT staffing, executive search
-				and services company. We are constantly seeking a wide range of
-				skills specializing in applications, infrastructure, and
-				communications technologies. Our varied clients - from Fortune 2000
-				firms to small and mid-sized businesses -- require talented
-				professionals who are qualified with today's technologies.
-			</p>
-			<p>Our mission is to meet and exceed the needs of both our
-				clients and job candidates and to ensure each party is right for
-				the other. Whether you are looking for a permanent or a temporary
-				position, Sapphire can help you find the information technology job
-				that is right for you.</p>
-			<p>We are actively seeking a wide range of information
-				technology job skills from many individuals including:</p>
-			<ul>
-				<li>SAP (ABAP, SD, FI/CO, MM, PP, APO, CRM, HR, Basis, BW, XI,
-					Netweaver)</li>
-				<li>Oracle Apps 11i Functional (Financial, Manufacturing,
-					HRMS, CRM), Technical</li>
-				<li>Data warehousing Tools (Micro strategy, Business Objects,
-					Cognos)</li>
-				<li>ETL Tools (Ab Initio, Informatica, Datastage)</li>
-				<li>QA Testing (Winrunner/Loadrunner/QTP)</li>
-				<li>Microsoft .NET Framework</li>
-				<li>Java Technologies</li>
-				<li>Joomla</li>
-				<li>Drupal</li>
-				<li>Systems Administration</li>
-				<li>Weblogic Administration</li>
-				<li>ETL</li>
-				<li>Cognos reporting</li>
-				<li>Oracle DB</li>
-			</ul>
-			<h3>IT Training Services</h3>
-			<p>In this highly competitive market, updated technology skills
-				are crucial. Sapphire offers a wide range of IT training programs,
-				including certification training, in our State-of-the-art training
-				facilities located in Philadelphia PA, Princeton NJ, San Jose CA.</p>
-		</div>
+				<div class="fl_right">
+					<nav id="topnav">
+						<ul class="clear">
+							<li id="homeId"><a href="home.html" title="Home">Home</a></li>
+							<li id="servicesId"><a class="drop" href="services.html"
+								title="Services &amp; Solutions">Services &amp; Solutions</a>
+								<ul>
+									<li><a href="tech-consulting.html">Technology
+											Consulting</a></li>
+									<li><a href="business-solutions.html">Business
+											Solutions</a></li>
+									<li><a href="infra-management.html">Infrastructure
+											Management</a></li>
+								</ul></li>
+							<li id="careersId"><a class="drop" href="careers.html"
+								title="Careers">Careers</a>
+								<ul>
+									<li><a href="technology.html">Technology</a></li>
+									<li><a href="clients.html">Our Clients</a></li>
+									<li><a href="career.html">Opportunities</a></li>
+								</ul></li>
+							<li id="aboutusId"><a class="drop" href="about-us.html"
+								title="About Us">About Us</a>
+								<ul>
+									<li><a href="vision.html">Vision &amp; Mission</a></li>
+									<li><a href="principles.html">Guiding Principles</a></li>
+									<li><a href="quality.html">Quality</a></li>
+								</ul></li>
+							<li id="contactusId"><a class="drop" href="contact-us.html"
+								title="Contact Us">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 		</div>
 	</div>
-    
-    <!-- Footer -->
-    <div id="footerSec"></div>
-     
+	<!-- welcome -->
+
+	<div class="row3">
+		<div class="padding0" id="container">
+			<div style="margin-bottom: 20px;">
+				<img src="images/inner-careers.jpg" style="max-width: 100%" />
+			</div>
+
+			<div class="sidebar one_quarter first" id="sidebar_1">
+				<aside>
+					<nav>
+						<ul>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="technology.html">Technology</a></li>
+							<li><a href="clients.html">Our Clients</a></li>
+							<li><a class="active" href="career.html">Opportunities</a></li>
+						</ul>
+					</nav>
+				</aside>
+			</div>
+
+			<div class="three_quarter">
+				<h2>Opportunities</h2>
+				&nbsp;
+
+				<h3>Information Technology Jobs</h3>
+
+				<p>&nbsp;</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Software
+					Engineers in Dublin, CA and other unanticipated locations
+					nationwide.<br /> Duties: Design, develop, create, modify,
+					customize, test, and validate software applications using Red Hat
+					Linux Enterprise, Solaris, Veritas Cluster Server, Windows server,
+					Shell programming, Jboss, JDK, SMSC Toolkit, POS Bridge, MKS
+					Integrity, VMWare Virtual Client, Nagios, Apache, Weblogic, and
+					Oracle.<br /> Requirement: Master&#39;s degree or equivalent in
+					Science or Engineering with at least one (1) year of experience in
+					the field. Any suitable combination of education, training or
+					experience is acceptable.<br /> Mail resume with proof of work
+					eligibility to: HR- Sapphire Software Solutions, Inc., 3116
+					Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Software
+					Engineers in San Jose, CA and other unanticipated locations
+					nationwide.<br /> Duties: Design, develop, create, modify,
+					customize, test, and validate software applications using Weblogic
+					Server/Portal, Oracle, MQ Series, SunOne web server, Solaris, RHEL,
+					JDK, BEA JROCKIT, J2EE and Wily Introscope.<br /> Requirement:
+					Master&#39;s degree or equivalent in Science, Engineering or
+					related with at least one (1) year of experience in the field. Any
+					suitable combination of education, training or experience is
+					acceptable. Travel/relocation may be required.<br /> Mail resume
+					with proof of work eligibility to: HR - Sapphire Software
+					Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;"> Software Engineer</span>
+				</h4>
+
+				<p>Duties: Analyze business processes to define application
+					functional requirements and technical specifications; gather end
+					users requirement to software/patch upgrades and install processes
+					to form a basis for the solution of business processing problem;
+					perform development and maintenance for user interfaces to
+					internet/intranet applications by setting expectations and features
+					priorities using JAVA and J2EE; develop the front end and Web
+					Service clients to communicate with various Web Service providers
+					in order to achieve business requirements; involve in high
+					availability web service and system process analysis and
+					development as well as provide user training for developed systems;
+					design and implement restful web services; update and synchronize
+					the code; deploy and implement improved processes, and build
+					Scripts to build to continually improve software delivery
+					effectiveness; work with users to formulate the best software
+					plans, and consume web services. May need to work in other
+					locations as required. Requirement: Bachelors degree in Computer
+					Science, Electronics, Communication Engineering, or related area
+					and at least 6 month experience. Mail resume with proof of work
+					eligibity to: HR - Sapphire Software Solutions, Inc., 11501 Dublin
+					Blvd., Suite 200, Dublin, CA 94568</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Engineer</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and evaluate clients existing software, integrate
+					object server systems and information technology needs; collect and
+					analyze users business requirements, then design, implement and
+					upgrade customized business system and standard operating
+					procedures based on the analysis of the users requirements and
+					business specifications; write and execute test plans and test
+					cases in highly structured and loosely structured development
+					environments and performing all types of testing; prepare detail
+					design documents, unit test cases and ensure the quality
+					deliverables adhere to standards; develop various business process
+					applications in domain driven design approach. May need to work in
+					other locations as required.<br /> Requirement: Masters Degree in
+					Computer Science/Application, Electronics, Engineering, Information
+					Systems, or related.<br /> Mail resume with proof of work
+					eligibility to: HR - Sapphire Software Solutions, Inc., 11501
+					Dublin Blvd., Suite 200, Dublin, CA 94568
+				<h4>
+					<span style="text-decoration: underline;">Systems Analyst</span>
+				</h4>
+
+				<p>Duties: Analyze and evaluate clients existing business
+					requirements, functional specification, and the security controls
+					used to protect company data; gather and review end users&rsquo;
+					requirements to meet clients&rsquo; needs and to handle quality
+					assurance for the development and implementation; design and
+					configure Procurement and Inventory management process; work with
+					users to formulate the best software plans and analyzing functional
+					module using NT Server and Linux; write Stored procedures and SQL
+					queries, and review codes and enhance software solutions from
+					development to production; perform performance tuning, optimization
+					and testing of software and database e-Commerce management systems,
+					as well as provide user training for developed systems; May need to
+					work in other locations as required. Requirement: Bachelor&rsquo;s
+					Degree in Computer Science, Information Technology, Engineering, or
+					related or its U.S. equivalent with 3 years IT related experience.
+					Will also accept suitable combination of education and experiences
+					or training. Contact Person: Manoj Kumar/HR Manager - Sapphire
+					Software Solutions, Inc., 11501 Dublin Blvd., Suite 200, Dublin, CA
+					94568</p>
+
+				<h4>
+					<span style="text-decoration: underline;"> Systems Analyst</span>
+				</h4>
+				<p>Duties: Analyze and evaluate clients existing software system
+					and integrate object server systems; Gather user&rsquo;s business
+					requirements, then design, implement and upgrade customized
+					business system and standard operating procedures based on the
+					analysis of the user&rsquo;s requirements and business
+					specifications; Work with users to formulate the best software
+					plans and analyzing functional module using NT Server and Linux;
+					Create, cloning Linux Virtual Machines, and migrate servers between
+					hosts; Administer package installation, and configure Oracle
+					Enterprise Linux; Review server build strategies, and co-ordinate
+					facilitate execution of the implementation plan; Conduct File
+					System management and expansions of Linux Logical Volume
+					Management; Plan, analyze and estimate test resource requirements
+					to identify risks and track project status; Provide support for
+					system requirement deliverables, user interface specifications,
+					application statistics reporting and security packages. May need to
+					work in other locations as required. Requirement: Bachelor&rsquo;s
+					degree in Computer Science/Application, Information Technology,
+					Electronics, Engineering, or related area and at least 5 years of
+					experience. Contact Person: Manoj Kumar/HR Manager - Sapphire
+					Software Solutions, Inc., 11501 Dublin Blvd., Suite 200, Dublin, CA
+					94568</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Software
+					Engineers in San Jose, CA and other unanticipated locations
+					nationwide.<br /> Duties: Design, develop, create, modify,
+					customize, test, and validate software applications using RHEL,
+					Solaris, SMTP, VPN, Perl, Python, PHP, Apache, Websphere, Oracle,
+					Netezza, LDAP, DHCP, DNS, NFS, NIS, and Samba.<br /> Requirement:
+					Master&#39;s degree or equivalent in Computer Science/Engineering
+					or related field with at least six (6) months of experience in the
+					field. Any suitable combination of education, training or
+					experience is acceptable. Travel/relocation may be required.<br />
+					Mail resume with proof of work eligibility to: HR- Sapphire
+					Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Software
+					Engineers in Dublin, CA and other unanticipated locations
+					nationwide.<br /> Duties: Design, develop, create, modify,
+					customize, test, and validate software applications using skills
+					including Red Hat Enterprise Linux, Yum, RPM repository server,
+					Veritas Volume Manager, Veritas Cluster Server, KickStart, and Unix
+					Shell scripts.<br /> Requirement: Master&#39;s degree or
+					equivalent in Computer Science/Engineering, Electrical Engineering,
+					Information Systems Technologies or related field with at least six
+					(6) months of experience in the field. Any suitable combination of
+					education, training or experience is acceptable. Travel/relocation
+					may be required.<br /> Mail resume with proof of work eligibility
+					to: HR- Sapphire Software Solutions, Inc., 3116 Vittoria Loop,
+					Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">System Analyst</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for System Analyst
+					in Dublin, CA and other unanticipated locations nationwide.<br />
+					Duties: Analyze and evaluate clients existing software system and
+					integrate object server systems; Gather user&#39;s business
+					requirements, then design, implement and upgrade customized
+					business system and standard operating procedures based on the
+					analysis of the user&#39;s requirements and business
+					specifications; Work with users to formulate the best software
+					plans and analyzing functional module using NT Server and Linux;
+					Create, cloning Linux Virtual Machines, and migrate servers between
+					hosts; Administer package installation, and configure Oracle
+					Enterprise Linux; Review server build strategies, and co-ordinate
+					facilitate execution of the implementation plan; Conduct File
+					System management and expansions of Linux Logical Volume
+					Management; Plan, analyze and estimate test resource requirements
+					to identify risks and track project status; Provide support for
+					system requirement deliverables, user interface specifications,
+					application statistics reporting and security packages. May need to
+					work in other locations as required.<br /> Requirement:
+					Master&#39;s degree in Computer Science/Application, Information
+					Technology, Electronics, or related area and at least one year
+					experience.<br /> Mail resume with proof of work eligibility to:
+					HR Manager - Sapphire Software Solutions, Inc., 3116 Vittoria Loop,
+					Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">System Analyst</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and evaluate clients existing software system and
+					integrate object server systems; Gather user&#39;s business
+					requirements, then design, implement and upgrade customized
+					business system and standard operating procedures based on the
+					analysis of the user&#39;s requirements and business
+					specifications; Work with users to formulate the best software
+					plans and analyzing functional module using NT Server and Linux;
+					Create, cloning Linux Virtual Machines, and migrate servers between
+					hosts; Administer package installation, and configure Oracle
+					Enterprise Linux; Review server build strategies, and co-ordinate
+					facilitate execution of the implementation plan; Conduct File
+					System management and expansions of Linux Logical Volume
+					Management; Plan, analyze and estimate test resource requirements
+					to identify risks and track project status; Provide support for
+					system requirement deliverables, user interface specifications,
+					application statistics reporting and security packages. May need to
+					work in other locations as required.<br /> Requirement:
+					Bachelor&#39;s degree in Computer Science/Application, Information
+					Technology, Electronics, or related area and at least 5 years of
+					experience.<br /> Contact Person: HR Manager - Sapphire Software
+					Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Systems Engineer</span>
+				</h4>
+
+				<p>
+					Duties: Perform and oversee the design, development, automation,
+					testing &amp; implementation of Enterprise level SAN storage,
+					networks &amp; application development using skills; Perform all
+					storage management tasks remotely from the data center using tools
+					such as HP InForm Manager, EMC OneFS and EMC Unisphere; Manage the
+					backup and recovery of data on storage subsystems; Research to
+					improve storage hardware and software, including storage
+					subsystems; Perform performance tuning, optimization and testing of
+					software and computer systems analysis report as well as provide
+					user training for developed systems. May need to work in
+					unanticipated locations as required.<br /> Requirement:
+					Master&#39;s Degree in Computer Science, Communication/Electrical
+					Engineering, Electronics, or its U.S. equivalent and at least 1
+					year of experience.<br /> Contact Person: HR- Sapphire Software
+					Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Database
+						Administrator</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and implement clients existing software and
+					database management systems and information technology needs;
+					Collect and analyze user&#39;s business requirements, then design,
+					implement and test customized business system and standard
+					operating procedures based on the analysis of the user&#39;s
+					requirements and business specifications; Perform installation,
+					configuration, maintenance, and administration of various version
+					of database instances and application; Perform performance tuning,
+					optimization and testing of software and database management
+					systems, and involve in database testing by running object oriented
+					programming; Conduct scope analysis, business study, requirements
+					study and testing, then incorporate Oracle database based on study
+					conducted; Optimize by writing efficient code, implement disaster
+					recovery solutions, and upgrade database applications; Monitor
+					database performance, troubleshoot, migrate and administer
+					client/server applications and database system. May need to work in
+					other locations as required.<br /> Requirement: Master&#39;s
+					degree in Science, Information System, Engineering, or related, and
+					at least 1 year of experience required.<br /> Contact Person: HR
+					Manager - Sapphire Software Solutions, Inc., 3116 Vittoria Loop,
+					Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Sr. Software
+						Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Sr. Software
+					Engineers in Dublin, CA and other unanticipated locations
+					nationwide.<br /> Duties: Analyze and evaluate clients existing
+					software, integrate object server systems and information
+					technology needs; Collect and analyze user&#39;s business
+					requirements, then design, implement and upgrade customized
+					business system and standard operating procedures based on the
+					analysis of the user&#39;s requirements and business
+					specifications; Write and execute test plans and test cases in
+					highly structured and loosely structured development environments
+					and performing all types of testing; Prepare detail design
+					documents, unit test cases and ensure the quality deliverables
+					adhere to standards; Develop various business process applications
+					in domain driven design approach. May need to work in other
+					locations as required.<br /> Requirement: Bachelor&#39;s Degree in
+					Computer Science/Application, Electronics, Information Systems, or
+					related, and at least 5 years of experience required.<br /> Mail
+					resume with proof of work eligibility to: HR Manager - Sapphire
+					Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Sr. Systems
+						Engineer</span>
+				</h4>
+
+				<p>
+					Sapphire Software Solutions, Inc. has openings for Sr. Systems
+					Engineer.<br /> Duties: Perform and oversee the design,
+					development, automation, testing &amp; implementation of Enterprise
+					level SAN storage, networks &amp; application development using
+					skills including EMC VMAX, IBM SVC , Cisco MDS,Brocade DCX, Linux,
+					UNIX, and shell scripts; perform all storage management tasks
+					remotely from the data center using tools such as HP InForm
+					Manager, EMC OneFS and EMC Unisphere; manage the backup and
+					recovery of data on storage subsystems; research to improve storage
+					hardware and software, including storage subsystems; perform
+					performance tuning, optimization and testing of software and
+					computer systems analysis report as well as provide user training
+					for developed systems. May need to work in unanticipated locations
+					as required.<br /> Requirement: Bachelor&#39;s Degree in Computer
+					Science, Communication/Electrical Engineering, Electronics, or its
+					U.S. equivalent and at least 5 years of system and software
+					engineering experience.<br /> Mail resume to: HR- Sapphire
+					Software Solutions, Inc., 3116 Vittoria Loop, Dublin, CA 94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Developer</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and evaluate clients existing computer application
+					and database management systems and information technology needs;
+					gather and analyze business requirements, then design, implement
+					and test customized business system to identify various business,
+					functional and technical requirements in SQL server; design
+					computer systems and user interface to meet client needs within
+					time and cost constraints; analyze and define application
+					specification necessary to develop best-in-class IT solutions;
+					perform performance tuning, optimization and testing of software
+					and database business systems analysis report using as well as
+					provide user training for developed systems; administer and
+					integrate Enterprise-class systems in addition to maintaining
+					database audit and security standards; design, develop and optimize
+					database extract and update programs using Relational Database
+					Technologies. May need to work in other locations as required.<br />
+					Requirement: Bachelors&#39; degree in Computer Science,
+					Electronics, Software Engineering, or related area and at least 6
+					month experience.<br /> Mail resume to: HR Manager - Sapphire
+					Software Solutions, Inc., 11501 Dublin Blvd, Suite 200, Dublin, CA
+					94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">Software Developer</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and evaluate clients existing computer application
+					and database management systems and information technology needs;
+					gather and analyze business requirements, then design, implement
+					and test customized business system to identify various business,
+					functional and technical requirements in SQL server; design
+					computer systems and user interface to meet client needs within
+					time and cost constraints; analyze and define application
+					specification necessary to develop best-in-class IT solutions;
+					perform performance tuning, optimization and testing of software
+					and database business systems analysis report using as well as
+					provide user training for developed systems; administer and
+					integrate Enterprise-class systems in addition to maintaining
+					database audit and security standards; design, develop and optimize
+					database extract and update programs using Relational Database
+					Technologies. May need to work in other locations as required.
+					Requirement: Bachelor&rsquo;s degree in Computer Science,
+					Electronics, Software Engineering, or related area and at least 6
+					month experience.<br /> Mail resume to: HR Manager - Sapphire
+					Software Solutions, Inc., 11501 Dublin Blvd, Suite 200, Dublin, CA
+					94568.
+				</p>
+
+				<h4>
+					<span style="text-decoration: underline;">MIS Analyst</span>
+				</h4>
+
+				<p>
+					Duties: Analyze and evaluate clients existing software and database
+					management systems and information technology needs to meet
+					clients&rsquo; needs within time and cost constraints; design and
+					develop software and computer systems to meet the project needs
+					within time and cost constraints; develop e-Commerce, database
+					driven web sites for clients using Windows and Java technologies;
+					review and write software and database business systems analysis
+					report on a framework as well as provide user training for
+					developed systems; track system performance by performing system
+					monitoring and analysis, and performance tuning; troubleshooting
+					system hardware, software, networks and operating systems; secures
+					computer system by developing system access criteria, monitoring
+					and controlling all system access, and implementing security
+					controls to ensure data integrity. May need to work in other
+					locations as required. Requirement: Master&rsquo;s degree in
+					Computer Science/Applications, Business IT, Electronics, Electrical
+					Engineering, Engineering Management, or related with at least 1
+					year of experience.<br /> Mail resume to: HR Manager - Sapphire
+					Software Solutions, Inc., 11501 Dublin Blvd, Suite 200, Dublin, CA
+					94568.
+				</p>
+
+				<p>Sapphire is a leading global IT staffing, executive search
+					and services company. We are constantly seeking a wide range of
+					skills specializing in applications, infrastructure, and
+					communications technologies. Our varied clients - from Fortune 2000
+					firms to small and mid-sized businesses -- require talented
+					professionals who are qualified with today&#39;s technologies.</p>
+
+				<p>Our mission is to meet and exceed the needs of both our
+					clients and job candidates and to ensure each party is right for
+					the other. Whether you are looking for a permanent or a temporary
+					position, Sapphire can help you find the information technology job
+					that is right for you.</p>
+
+				<p>We are actively seeking a wide range of information
+					technology job skills from many individuals including:</p>
+
+				<ul>
+					<li>SAP (ABAP, SD, FI/CO, MM, PP, APO, CRM, HR, Basis, BW, XI,
+						Netweaver)</li>
+					<li>Oracle Apps 11i Functional (Financial, Manufacturing,
+						HRMS, CRM), Technical</li>
+					<li>Data warehousing Tools (Micro strategy, Business Objects,
+						Cognos)</li>
+					<li>ETL Tools (Ab Initio, Informatica, Datastage)</li>
+					<li>QA Testing (Winrunner/Loadrunner/QTP)</li>
+					<li>Microsoft .NET Framework</li>
+					<li>Java Technologies</li>
+					<li>Joomla</li>
+					<li>Drupal</li>
+					<li>Systems Administration</li>
+					<li>Weblogic Administration</li>
+					<li>ETL</li>
+					<li>Cognos reporting</li>
+					<li>Oracle DB</li>
+				</ul>
+
+				<h3>IT Training Services</h3>
+
+				<p>In this highly competitive market, updated technology skills
+					are crucial. Sapphire offers a wide range of IT training programs,
+					including certification training, in our State-of-the-art training
+					facilities located in Philadelphia PA, Princeton NJ, San Jose CA.</p>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+
+	<div id="footerSec">&nbsp;</div>
 </body>
 </html>
