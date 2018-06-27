@@ -7676,3 +7676,25 @@ body {
 .saphire-top ul li a {
 	color:#fff;
 }
+.carousel-caption
+{
+	top:35% !important;
+}
+.box-view p {
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.modal-dialog {
+    max-width: 80% !important;
+    margin: 1.75rem auto;
+}
+.cid-qUvgtIitrZ .card .card-header a.panel-title h4 {
+    padding: 1rem 0rem;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 10px;
+}
